@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins&family=Roboto+Condensed&display=swap');
+
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	display: block;
+}
+
+img {
+	display: block;
+	border-radius: 10px;
+}
+
+header {
+	font-family: 'Poppins', sans-serif;
+	color:#1B3239;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+header {
+	background-color: #EA8712;
+}
+
+table {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+.btn {
+	font-family: 'Abel', sans-serif;
+	font-size: .8em;
+	color: #fff;
+	background-color: #1B3239; 
+}
+
+blockquote {
+	color: #1B3239;
+	font-size: 2.2em;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	padding: 0 0 0 2%;
+}
+
+main {
+	color: #1F3A42;
+	background-color: #F1F1ED;
+	min-height: 500px;
+	font-family: 'Abel', sans-serif;
+	padding: 0 1%;
+}
+
+main p {
+	padding: 0 0 .5%;
+}
+
+.top-nav {
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #C7791A;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.top-nav li {
+	display: inline-block;
+	padding: .5% 2%;
+}
+
+.top-nav a {
+	color: #203C45;
+	text-decoration: none;
+	padding: 0 10%;
+	border-radius: 10px;
+}
+
+.top-nav a:hover {
+	color: #fff;
+	background-color: #203C45; 
+}
+
+.foot-nav {
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #1B3239;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.foot-nav li {
+	display: inline-block;
+	padding: .5% 1%; 
+}
+
+.foot-nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 10%; 
+	border-radius: 10px;
+}
+
+.foot-nav a:hover {
+	color: #1B3239;
+	background-color: #fff; 
+}
+
+footer {
+	min-height: 160px;
+	text-align: center;
+	background-color: #DDD9CF;
+	font-family: 'Abel', sans-serif;
+}
+
